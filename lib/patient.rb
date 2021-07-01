@@ -1,7 +1,7 @@
 #a Patient has many Doctors thru its Appt's & a Patient has many appt's
 require 'pry'
 class Patient
-    attr_accessor :name, :doctor
+    attr_accessor :name
 
     @@all = []
 
